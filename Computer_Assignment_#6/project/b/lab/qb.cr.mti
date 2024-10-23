@@ -1,0 +1,43 @@
+C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/4.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/4.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cosine_hoffman_sm
+
+Top level modules:
+	cosine_hoffman_sm
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/5.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/5.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cosine_asserter
+
+Top level modules:
+	cosine_asserter
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/cosine_tb.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/cosine_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cosine_tb
+
+Top level modules:
+	cosine_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/quzrt/simulation/modelsim/cosines.vo {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/quzrt/simulation/modelsim/cosines.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cosines
+-- Compiling module hard_block
+
+Top level modules:
+	cosines
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/3.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/3.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cosine_dp
+-- Compiling module register
+-- Compiling module add_unit
+-- Compiling module mult_unit
+-- Compiling module hex_rom
+-- Compiling module ddff
+-- Compiling module counter
+
+Top level modules:
+	cosine_dp
+
+} {} {}}

@@ -1,0 +1,14 @@
+
+State Machine - |circuit_d|detector_post:inst1|previous_state
+Name previous_state.wait_to_get_back previous_state.rise_transmitter previous_state.wait_for_tr_signal previous_state.rise_nbit previous_state.G previous_state.F previous_state.E previous_state.D previous_state.C previous_state.B previous_state.A 
+previous_state.A 0 0 0 0 0 0 0 0 0 0 0 
+previous_state.B 0 0 0 0 0 0 0 0 0 1 1 
+previous_state.C 0 0 0 0 0 0 0 0 1 0 1 
+previous_state.D 0 0 0 0 0 0 0 1 0 0 1 
+previous_state.E 0 0 0 0 0 0 1 0 0 0 1 
+previous_state.F 0 0 0 0 0 1 0 0 0 0 1 
+previous_state.G 0 0 0 0 1 0 0 0 0 0 1 
+previous_state.rise_nbit 0 0 0 1 0 0 0 0 0 0 1 
+previous_state.wait_for_tr_signal 0 0 1 0 0 0 0 0 0 0 1 
+previous_state.rise_transmitter 0 1 0 0 0 0 0 0 0 0 1 
+previous_state.wait_to_get_back 1 0 0 0 0 0 0 0 0 0 1 

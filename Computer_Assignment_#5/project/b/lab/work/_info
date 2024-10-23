@@ -1,0 +1,172 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/lab
+vbit_counter_post
+Z0 !s110 1704209179
+!i10b 1
+!s100 GKomI5HI6CD6PnC64g>M^0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IH3hzN?>c@78AAUmSEUiSk3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab
+Z4 w1704181370
+Z5 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/1/simulation/modelsim/bit_counter_post.vo
+Z6 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/1/simulation/modelsim/bit_counter_post.vo
+!i122 87
+L0 32 787
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704209179.000000
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/1/simulation/modelsim/bit_counter_post.vo|
+Z9 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/1/simulation/modelsim/bit_counter_post.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vbit_counter_pre
+R0
+!i10b 1
+!s100 FHhNMKGN;;H?9AaQ^BmdL0
+R1
+I`H?:EWeoh]9:UUC1=BGIH2
+R2
+R3
+Z12 w1704181074
+Z13 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_pre.v
+Z14 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_pre.v
+!i122 85
+L0 3 8
+R7
+r1
+!s85 0
+31
+R8
+Z15 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_pre.v|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_pre.v|
+!i113 1
+R10
+R11
+vbit_tb
+R0
+!i10b 1
+!s100 H6]7=747@D]MV5R;2[cao2
+R1
+Ig:7NYzgNPG<V0bFQn:`hb3
+R2
+R3
+w1704209173
+Z17 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v
+Z18 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v
+!i122 86
+L0 3 17
+R7
+r1
+!s85 0
+31
+R8
+Z19 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v|
+!i113 1
+R10
+R11
+vbit_tb_pre
+!s110 1704136816
+!i10b 1
+!s100 A20VeLF3JXJZ^kBTIP7HP2
+R1
+I>JV14nI_4P@j[kf;[6WL71
+R2
+R3
+w1704136811
+R17
+R18
+!i122 32
+L0 3 14
+R7
+r1
+!s85 0
+31
+!s108 1704136816.000000
+R19
+R20
+!i113 1
+R10
+R11
+vcounter
+R0
+!i10b 1
+!s100 DUQ;jiJOI;jdi:oCTW4J<3
+R1
+I=IJ@BoJdTgalVM]dIzDT10
+R2
+R3
+R12
+R13
+R14
+!i122 85
+L0 12 22
+R7
+r1
+!s85 0
+31
+R8
+R15
+R16
+!i113 1
+R10
+R11
+vhard_block
+R0
+!i10b 1
+!s100 ^T2kD=OIH2]0nZ;T10]>d3
+R1
+IE26UMfMW?@AP?aLVg05ll3
+R2
+R3
+R4
+R5
+R6
+!i122 87
+L0 820 34
+R7
+r1
+!s85 0
+31
+R8
+Z21 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/1/simulation/modelsim/bit_counter_post.vo|
+R9
+!i113 1
+R10
+R11
+vshift_reg
+R0
+!i10b 1
+!s100 8>fDoZ4k:S8E=FjXL0A?m3
+R1
+I9EPF5?B4ekKb>ZRhdJQDh1
+R2
+R3
+R12
+R13
+R14
+!i122 85
+L0 35 8
+R7
+r1
+!s85 0
+31
+R8
+R15
+R16
+!i113 1
+R10
+R11

@@ -1,0 +1,24 @@
+C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module transmitter_tb
+
+Top level modules:
+	transmitter_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_pre.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_pre.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module transmitter_pre
+-- Compiling module down_counter
+
+Top level modules:
+	transmitter_pre
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module transmitter_post
+-- Compiling module hard_block
+
+Top level modules:
+	transmitter_post
+
+} {} {}}

@@ -1,0 +1,25 @@
+module detector_post(input serial_in,get_back,clk,rst,output reg sequence_detected);
+    reg[2:0] next_state,previous_state; 
+    parameter [2:0] A = 0,B = 1,C = 2,D = 3,E = 4,F = 5,G = 6,H = 7;
+    always @(previous_state,serial_in,get_back) begin
+            next_state = A;
+        case(previous_state)
+            A: next_state = serial_in ? A:B;
+            B: next_state = serial_in ? C:B;
+            C: next_state = serial_in ? D:B;
+            D: next_state = serial_in ? E:B;
+            E: next_state = serial_in ? F:B;
+            F: next_state = serial_in ? G:B;
+            G: next_state = serial_in ? A:H;
+            H: next_state = get_back ? B:H;
+        endcase
+    end
+    always @(posedge clk,posedge rst) begin
+        if (rst) previous_state <= A;
+        else previous_state <= next_state;
+    end
+    // always @(posedge clk) begin
+    //     $display("Current State: %d", previous_state);
+    // end
+    assign sequence_detected = (previous_state == H) ? 1'b1:1'b0;
+endmodule

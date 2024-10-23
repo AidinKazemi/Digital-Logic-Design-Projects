@@ -1,0 +1,78 @@
+# Compile of bit_counter_pre.v was successful.
+# Compile of bit_counter_tb.v was successful.
+# Compile of bit_counter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of bit_counter_pre.v was successful.
+# Compile of bit_counter_tb.v was successful.
+# Compile of bit_counter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.bit_tb
+# vsim -gui work.bit_tb 
+# Start time: 18:56:36 on Jan 02,2024
+# Loading work.bit_tb
+# Loading work.bit_counter_pre
+# Loading work.counter
+# Loading work.shift_reg
+add wave -position insertpoint  \
+sim:/bit_tb/wake_transmitter_pre \
+sim:/bit_tb/wake_transmitter_post \
+sim:/bit_tb/serial_in \
+sim:/bit_tb/rst \
+sim:/bit_tb/rise \
+sim:/bit_tb/pout_pre \
+sim:/bit_tb/pout_post \
+sim:/bit_tb/clk
+# Load canceled
+run -continue
+run -all
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 1
+# Current ns value  0
+# Current contain value  0
+# Current rise value 0
+# Current ns value  1
+# Current contain value  1
+# Current rise value 0
+# Current ns value  2
+# Current contain value  2
+# Current rise value 0
+# Current ns value  3
+# Current contain value  3
+# Current rise value 0
+# Current ns value  4
+# Current contain value  4
+# Current rise value 0
+# Current ns value  5
+# Current contain value  5
+# Current rise value 0
+# Current ns value  6
+# Current contain value  6
+# Current rise value 0
+# Current ns value  7
+# Current contain value  7
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v(17)
+#    Time: 815 ns  Iteration: 0  Instance: /bit_tb
+# Break in Module bit_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v line 17
+# End time: 19:19:14 on Jan 02,2024, Elapsed time: 0:22:38
+# Errors: 0, Warnings: 3

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at bit_counter_post.v(37): always construct contains both blocking and non-blocking assignments File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/1/bit_counter_post.v Line: 37

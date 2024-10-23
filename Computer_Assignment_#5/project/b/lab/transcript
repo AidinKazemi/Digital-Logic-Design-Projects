@@ -1,0 +1,96 @@
+# Compile of bit_counter_pre.v was successful.
+# Compile of bit_counter_tb.v was successful.
+# Compile of bit_counter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of bit_counter_pre.v was successful.
+# Compile of bit_counter_tb.v was successful.
+# Compile of bit_counter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.bit_tb -L altera_ver -L cycloneiv_ver -sdftyp /bcpp=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo
+# vsim -gui work.bit_tb -L altera_ver -L cycloneiv_ver -sdftyp "/bcpp=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo" 
+# Start time: 11:18:05 on Jan 02,2024
+# Loading work.bit_tb
+# Loading work.bit_counter_pre
+# Loading work.counter
+# Loading work.shift_reg
+# Loading work.bit_counter_post
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo
+# Loading instances from bit_counter_post_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo
+# Loading timing data from bit_counter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /bit_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/bit_tb/wake_transmitter_pre \
+sim:/bit_tb/wake_transmitter_post \
+sim:/bit_tb/serial_in \
+sim:/bit_tb/rst \
+sim:/bit_tb/rise \
+sim:/bit_tb/pout_pre \
+sim:/bit_tb/pout_post \
+sim:/bit_tb/clk
+run -all
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 1
+# Current ns value  0
+# Current contain value  0
+# Current rise value 0
+# Current ns value  1
+# Current contain value  1
+# Current rise value 0
+# Current ns value  2
+# Current contain value  2
+# Current rise value 0
+# Current ns value  3
+# Current contain value  3
+# Current rise value 0
+# Current ns value  4
+# Current contain value  4
+# Current rise value 0
+# Current ns value  5
+# Current contain value  5
+# Current rise value 0
+# Current ns value  6
+# Current contain value  6
+# Current rise value 0
+# Current ns value  7
+# Current contain value  7
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# Current contain value  8
+# Current rise value 0
+# Current ns value  8
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v(17)
+#    Time: 815 ns  Iteration: 0  Instance: /bit_tb
+# Break in Module bit_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/0/bit_counter_tb.v line 17
+# End time: 13:35:37 on Jan 02,2024, Elapsed time: 2:17:32
+# Errors: 0, Warnings: 3
+# Closing project C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/qb.mpf

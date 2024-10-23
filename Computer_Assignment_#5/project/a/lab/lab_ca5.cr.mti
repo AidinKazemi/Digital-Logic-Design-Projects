@@ -1,0 +1,23 @@
+C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/detector-pre.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/detector-pre.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module detector_pre
+
+Top level modules:
+	detector_pre
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/1/sequence_tb.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/1/sequence_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module seq_tb
+
+Top level modules:
+	seq_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/2/simulation/modelsim/detector_post.vo {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/2/simulation/modelsim/detector_post.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module detector_post
+-- Compiling module hard_block
+
+Top level modules:
+	detector_post
+
+} {} {}}

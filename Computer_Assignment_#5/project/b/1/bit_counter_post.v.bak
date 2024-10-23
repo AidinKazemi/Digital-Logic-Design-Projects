@@ -1,0 +1,34 @@
+`timescale 1ps/1ps
+
+module bit_counter_post(input serial_in,init,do_count,clk,rst, output ready,output[7:0] the_number);
+    wire co,n_co,cnt,and_cnt;
+    not not_co(n_co,co);
+    or the_or(cnt,and_cnt,init);
+    and count_and(and_cnt,n_co,do_count);
+    counter the_cnt(cnt,clk,rst,co);
+    shift_reg s_reg(clk,rst,n_co,serial_in,the_number);
+    assign ready = co;
+endmodule
+
+module counter(input cnt,clk,rst, output co);
+    reg [3:0]contain = 7,ns;
+    always @(posedge clk,posedge rst) begin
+        if (rst) contain <= 7;
+        else begin
+            if (cnt) begin
+                if (contain == 4'b1111) contain <= 7;
+                else contain <= contain + 1;
+            end
+        end
+    end
+    assign co = (contain == 4'b1111) ? 1'b1:1'b0; 
+endmodule
+
+module shift_reg(input clk,rst,en,serial_in,output [7:0] pout);
+    reg[7:0] contain;
+    always @(posedge clk,posedge rst) begin
+        if (rst) contain = 8'd0;
+        else if(en) contain <= {serial_in,contain[7:1]};
+    end
+    assign pout = contain;
+endmodule

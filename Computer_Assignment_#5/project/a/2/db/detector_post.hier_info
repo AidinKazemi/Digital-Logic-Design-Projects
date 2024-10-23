@@ -1,0 +1,20 @@
+|detector_post
+serial_in => Selector0.IN2
+serial_in => next_state.C.DATAB
+serial_in => next_state.D.DATAB
+serial_in => next_state.E.DATAB
+serial_in => next_state.F.DATAB
+serial_in => next_state.G.DATAB
+serial_in => Selector0.IN3
+serial_in => Selector1.IN1
+serial_in => next_state.rise_nbit.DATAB
+get_back => Selector0.IN4
+get_back => Selector3.IN2
+clk => previous_state~1.DATAIN
+rst => previous_state~3.DATAIN
+transmitter_signal => next_state.rise_transmitter.DATAB
+transmitter_signal => Selector2.IN2
+wake_nbit <= wake_nbit.DB_MAX_OUTPUT_PORT_TYPE
+wake_transmitter <= wake_transmitter.DB_MAX_OUTPUT_PORT_TYPE
+
+

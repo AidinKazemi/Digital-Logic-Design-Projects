@@ -1,0 +1,195 @@
+|circuit_d
+so <= transmitter_post:inst2.serial_out
+clk => transmitter_post:inst2.clk
+clk => detector_post:inst1.clk
+clk => bit_counter_post:inst.clk
+rst => transmitter_post:inst2.rst
+rst => detector_post:inst1.rst
+rst => bit_counter_post:inst.rst
+sin => transmitter_post:inst2.serial_in
+sin => detector_post:inst1.serial_in
+sin => bit_counter_post:inst.serial_in
+soen <= transmitter_post:inst2.serout_ready
+wake <= transmitter_post:inst2.wake_em_up
+num[0] <= transmitter_post:inst2.container[0]
+num[1] <= transmitter_post:inst2.container[1]
+num[2] <= transmitter_post:inst2.container[2]
+num[3] <= transmitter_post:inst2.container[3]
+num[4] <= transmitter_post:inst2.container[4]
+num[5] <= transmitter_post:inst2.container[5]
+num[6] <= transmitter_post:inst2.container[6]
+num[7] <= transmitter_post:inst2.container[7]
+
+
+|circuit_d|transmitter_post:inst2
+clk => clk.IN1
+rst => rst.IN1
+serial_in => serial_out.DATAIN
+start => start.IN1
+parint[0] => parint[0].IN1
+parint[1] => parint[1].IN1
+parint[2] => parint[2].IN1
+parint[3] => parint[3].IN1
+parint[4] => parint[4].IN1
+parint[5] => parint[5].IN1
+parint[6] => parint[6].IN1
+parint[7] => parint[7].IN1
+serial_out <= serial_in.DB_MAX_OUTPUT_PORT_TYPE
+wake_em_up <= down_counter:dcntr.port6
+serout_ready <= serout_en_reg.DB_MAX_OUTPUT_PORT_TYPE
+container[0] <= parint[0].DB_MAX_OUTPUT_PORT_TYPE
+container[1] <= parint[1].DB_MAX_OUTPUT_PORT_TYPE
+container[2] <= parint[2].DB_MAX_OUTPUT_PORT_TYPE
+container[3] <= parint[3].DB_MAX_OUTPUT_PORT_TYPE
+container[4] <= parint[4].DB_MAX_OUTPUT_PORT_TYPE
+container[5] <= parint[5].DB_MAX_OUTPUT_PORT_TYPE
+container[6] <= parint[6].DB_MAX_OUTPUT_PORT_TYPE
+container[7] <= parint[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuit_d|transmitter_post:inst2|down_counter:dcntr
+clk => contain[0].CLK
+clk => contain[1].CLK
+clk => contain[2].CLK
+clk => contain[3].CLK
+clk => contain[4].CLK
+clk => contain[5].CLK
+clk => contain[6].CLK
+clk => contain[7].CLK
+rst => contain[0].ACLR
+rst => contain[1].ACLR
+rst => contain[2].ACLR
+rst => contain[3].ACLR
+rst => contain[4].ACLR
+rst => contain[5].ACLR
+rst => contain[6].ACLR
+rst => contain[7].ACLR
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+load_en => ns[7].OUTPUTSELECT
+load_en => ns[6].OUTPUTSELECT
+load_en => ns[5].OUTPUTSELECT
+load_en => ns[4].OUTPUTSELECT
+load_en => ns[3].OUTPUTSELECT
+load_en => ns[2].OUTPUTSELECT
+load_en => ns[1].OUTPUTSELECT
+load_en => ns[0].OUTPUTSELECT
+load_inp[0] => Add0.IN16
+load_inp[1] => Add0.IN15
+load_inp[2] => Add0.IN14
+load_inp[3] => Add0.IN13
+load_inp[4] => Add0.IN12
+load_inp[5] => Add0.IN11
+load_inp[6] => Add0.IN10
+load_inp[7] => Add0.IN9
+co <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+wake_em_up <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+container[0] <= contain[0].DB_MAX_OUTPUT_PORT_TYPE
+container[1] <= contain[1].DB_MAX_OUTPUT_PORT_TYPE
+container[2] <= contain[2].DB_MAX_OUTPUT_PORT_TYPE
+container[3] <= contain[3].DB_MAX_OUTPUT_PORT_TYPE
+container[4] <= contain[4].DB_MAX_OUTPUT_PORT_TYPE
+container[5] <= contain[5].DB_MAX_OUTPUT_PORT_TYPE
+container[6] <= contain[6].DB_MAX_OUTPUT_PORT_TYPE
+container[7] <= contain[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuit_d|detector_post:inst1
+serial_in => Selector0.IN2
+serial_in => next_state.C.DATAB
+serial_in => next_state.D.DATAB
+serial_in => next_state.E.DATAB
+serial_in => next_state.F.DATAB
+serial_in => next_state.G.DATAB
+serial_in => Selector0.IN3
+serial_in => next_state.rise_nbit.DATAB
+serial_in => Selector1.IN1
+get_back => Selector0.IN4
+get_back => Selector3.IN2
+clk => previous_state~1.DATAIN
+rst => previous_state~3.DATAIN
+transmitter_signal => next_state.rise_transmitter.DATAB
+transmitter_signal => Selector2.IN2
+wake_nbit <= next_state.rise_nbit.DB_MAX_OUTPUT_PORT_TYPE
+wake_transmitter <= wake_transmitter.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuit_d|bit_counter_post:inst
+serial_in => serial_in.IN1
+rise => rise.IN1
+clk => clk.IN2
+rst => rst.IN2
+wake_transmitter <= counter:the_cnt.port5
+the_number[0] <= shift_reg:s_reg.port4
+the_number[1] <= shift_reg:s_reg.port4
+the_number[2] <= shift_reg:s_reg.port4
+the_number[3] <= shift_reg:s_reg.port4
+the_number[4] <= shift_reg:s_reg.port4
+the_number[5] <= shift_reg:s_reg.port4
+the_number[6] <= shift_reg:s_reg.port4
+the_number[7] <= shift_reg:s_reg.port4
+
+
+|circuit_d|bit_counter_post:inst|counter:the_cnt
+cnt => ns.OUTPUTSELECT
+cnt => ns.OUTPUTSELECT
+cnt => ns.OUTPUTSELECT
+cnt => ns.OUTPUTSELECT
+clk => contain[0].CLK
+clk => contain[1].CLK
+clk => contain[2].CLK
+clk => contain[3].CLK
+rst => contain[0].ACLR
+rst => contain[1].ACLR
+rst => contain[2].ACLR
+rst => contain[3].PRESET
+ld => ns[3].OUTPUTSELECT
+ld => ns[2].OUTPUTSELECT
+ld => ns[1].OUTPUTSELECT
+ld => ns[0].OUTPUTSELECT
+co <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+wake_signal <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|circuit_d|bit_counter_post:inst|shift_reg:s_reg
+clk => contain[0].CLK
+clk => contain[1].CLK
+clk => contain[2].CLK
+clk => contain[3].CLK
+clk => contain[4].CLK
+clk => contain[5].CLK
+clk => contain[6].CLK
+clk => contain[7].CLK
+rst => contain[0].ACLR
+rst => contain[1].ACLR
+rst => contain[2].ACLR
+rst => contain[3].ACLR
+rst => contain[4].ACLR
+rst => contain[5].ACLR
+rst => contain[6].ACLR
+rst => contain[7].ACLR
+en => contain[7].ENA
+en => contain[6].ENA
+en => contain[5].ENA
+en => contain[4].ENA
+en => contain[3].ENA
+en => contain[2].ENA
+en => contain[1].ENA
+en => contain[0].ENA
+serial_in => contain[7].DATAIN
+pout[0] <= contain[0].DB_MAX_OUTPUT_PORT_TYPE
+pout[1] <= contain[1].DB_MAX_OUTPUT_PORT_TYPE
+pout[2] <= contain[2].DB_MAX_OUTPUT_PORT_TYPE
+pout[3] <= contain[3].DB_MAX_OUTPUT_PORT_TYPE
+pout[4] <= contain[4].DB_MAX_OUTPUT_PORT_TYPE
+pout[5] <= contain[5].DB_MAX_OUTPUT_PORT_TYPE
+pout[6] <= contain[6].DB_MAX_OUTPUT_PORT_TYPE
+pout[7] <= contain[7].DB_MAX_OUTPUT_PORT_TYPE
+
+

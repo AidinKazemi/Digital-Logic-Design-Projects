@@ -1,0 +1,122 @@
+# Compile of b.sv was successful.
+# Compile of btb.sv was successful.
+# Compile of q2btb.sv was successful.
+# Compile of a.sv was successful.
+# Compile of q2dtb.sv was successful.
+# Compile of q2ctb.sv was successful.
+# Compile of q3ftb.sv was successful.
+# Compile of e.sv was successful.
+# Compile of q3gtb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+# Load canceled
+# Compile of b.sv was successful.
+# Compile of btb.sv was successful.
+# Compile of q2btb.sv was successful.
+# Compile of a.sv was successful.
+# Compile of q2dtb.sv was successful.
+# Compile of q2ctb.sv was successful.
+# Compile of q3ftb.sv was successful.
+# Compile of e.sv was successful.
+# Compile of q3gtb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+vsim -gui work.q3e_tb
+# vsim -gui work.q3e_tb 
+# Start time: 15:08:20 on Dec 19,2023
+# Loading sv_std.std
+# Loading work.q3e_tb
+# Loading work.pr_edge_dflipflop
+# Loading work.s_r_latch
+add wave -position insertpoint  \
+sim:/q3e_tb/pre
+add wave -position insertpoint  \
+sim:/q3e_tb/Qbar \
+sim:/q3e_tb/Q \
+sim:/q3e_tb/pre \
+sim:/q3e_tb/d \
+sim:/q3e_tb/clr \
+sim:/q3e_tb/clk
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv(9)
+#    Time: 160 ns  Iteration: 0  Instance: /q3e_tb
+# Break in Module q3e_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv line 9
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of b.sv was successful.
+# Compile of btb.sv was successful.
+# Compile of q2btb.sv was successful.
+# Compile of a.sv was successful.
+# Compile of q2dtb.sv was successful.
+# Compile of q2ctb.sv was successful.
+# Compile of q3ftb.sv was successful.
+# Compile of e.sv was successful.
+# Compile of q3gtb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.q3e_tb
+# Loading work.pr_edge_dflipflop
+# Loading work.s_r_latch
+restart -f
+run -continue
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv(9)
+#    Time: 160 ns  Iteration: 0  Instance: /q3e_tb
+# Break in Module q3e_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv line 9
+# Compile of b.sv was successful.
+# Compile of btb.sv was successful.
+# Compile of q2btb.sv was successful.
+# Compile of a.sv was successful.
+# Compile of q2dtb.sv was successful.
+# Compile of q2ctb.sv was successful.
+# Compile of q3ftb.sv was successful.
+# Compile of e.sv was successful.
+# Compile of q3gtb.sv was successful.
+# 9 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.q3e_tb
+# Loading work.pr_edge_dflipflop
+# Loading work.s_r_latch
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv(9)
+#    Time: 160 ns  Iteration: 0  Instance: /q3e_tb
+# Break in Module q3e_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv line 9
+# Compile of b.sv was successful.
+# Compile of btb.sv was successful.
+# Compile of q2btb.sv was successful.
+# Compile of a.sv was successful.
+# Compile of q2dtb.sv was successful.
+# Compile of q2ctb.sv was successful.
+# Compile of q3ftb.sv was successful.
+# Compile of e.sv was successful.
+# Compile of q3gtb.sv was successful.
+# Compile of h.sv was successful.
+# 10 compiles, 0 failed with no errors.
+quit -sim
+# End time: 17:56:57 on Dec 19,2023, Elapsed time: 2:48:37
+# Errors: 0, Warnings: 3
+vsim -gui work.q3h_tb
+# vsim -gui work.q3h_tb 
+# Start time: 17:57:09 on Dec 19,2023
+# Loading sv_std.std
+# Loading work.q3h_tb
+# Loading work.pr_edge_dflipflop
+# Loading work.s_r_latch
+add wave -position insertpoint  \
+sim:/q3h_tb/Qbar \
+sim:/q3h_tb/Q \
+sim:/q3h_tb/pre \
+sim:/q3h_tb/d \
+sim:/q3h_tb/clr \
+sim:/q3h_tb/clk
+run -all
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/h/h.sv(11)
+#    Time: 320 ns  Iteration: 0  Instance: /q3h_tb
+# Break in Module q3h_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/h/h.sv line 11
+# End time: 18:56:54 on Dec 19,2023, Elapsed time: 0:59:45
+# Errors: 0, Warnings: 1

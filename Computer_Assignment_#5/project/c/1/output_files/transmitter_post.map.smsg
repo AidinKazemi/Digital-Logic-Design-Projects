@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at transmitter_post.v(11): always construct contains both blocking and non-blocking assignments File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/transmitter_post.v Line: 11

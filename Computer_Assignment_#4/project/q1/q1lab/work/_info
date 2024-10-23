@@ -1,0 +1,311 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Hws/hw9/lab
+vedge_dflipflop
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1702996003
+!i10b 1
+!s100 ;83V0UMj[QgE8ZV_Taa>k2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ifk_z_gO=ogESLOXJCFF^J1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/q1lab
+w1702932149
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/a/a.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/a/a.sv
+!i122 346
+L0 1 6
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1702996003.000000
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/a/a.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/a/a.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vedge_dflipflop_tb
+R0
+!s110 1702932418
+!i10b 1
+!s100 <Vbg46Gm2gGoj1>lAQGIh2
+R2
+Il]h?<bFbj4oYC4SDoHlEm3
+R3
+S1
+R4
+w1702927257
+Z9 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/b/q2btb.sv
+Z10 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/b/q2btb.sv
+!i122 275
+Z11 L0 2 14
+R5
+r1
+!s85 0
+31
+!s108 1702932418.000000
+Z12 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/b/q2btb.sv|
+Z13 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/b/q2btb.sv|
+!i113 1
+R7
+R8
+vpr_edge_dflipflop
+R0
+R1
+!i10b 1
+!s100 SVEX`JW0<V@C`SQdMn]:j0
+R2
+IkY`C9YB;B_?4:Nk^YmC`g0
+R3
+S1
+R4
+w1702986620
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/e/e.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/e/e.sv
+!i122 350
+L0 1 5
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/e/e.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/e/e.sv|
+!i113 1
+R7
+R8
+vq2b_tb
+R0
+R1
+!i10b 1
+!s100 8XeUgKCj[99[=:T1;dO`z3
+R2
+I2Hn2[LhgY_b4En[J4k;oa2
+R3
+S1
+R4
+w1702933125
+R9
+R10
+!i122 345
+R11
+R5
+r1
+!s85 0
+31
+Z14 !s108 1702996002.000000
+R12
+R13
+!i113 1
+R7
+R8
+vq2c_tb
+R0
+R1
+!i10b 1
+!s100 alH`R3Qk80?le<;dWN[cO1
+R2
+I;6`^04?A^=8?E9:=R:mQk2
+R3
+S1
+R4
+w1702932988
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/c/q2ctb.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/c/q2ctb.sv
+!i122 348
+Z15 L0 2 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/c/q2ctb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/c/q2ctb.sv|
+!i113 1
+R7
+R8
+vq2d_tb
+R0
+R1
+!i10b 1
+!s100 RFPngO9knP5a9j2Q^nTfg3
+R2
+I6W=Dz2]4c9SaHS]@j_m583
+R3
+S1
+R4
+w1702927830
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/d/q2dtb.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/d/q2dtb.sv
+!i122 347
+L0 2 13
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/d/q2dtb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/d/q2dtb.sv|
+!i113 1
+R7
+R8
+vq3e_tb
+R0
+!s110 1702987806
+!i10b 1
+!s100 TY@45L<VZM1EZeCWRiJ>c2
+R2
+I[iIU7O8=RT^2Wm2Qi5Z:n3
+R3
+S1
+R4
+w1702986701
+Z16 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv
+Z17 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv
+!i122 342
+Z18 L0 2 10
+R5
+r1
+!s85 0
+31
+!s108 1702987806.000000
+Z19 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv|
+Z20 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv|
+!i113 1
+R7
+R8
+vq3f_tb
+R0
+R1
+!i10b 1
+!s100 GO[4hiAXV@<I]YoH8jYgd0
+R2
+I8_Xo@SiLB<ClPd8W7;Jl;0
+R3
+S1
+R4
+w1702986768
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/f/q3ftb.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/f/q3ftb.sv
+!i122 349
+L0 2 19
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/f/q3ftb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/f/q3ftb.sv|
+!i113 1
+R7
+R8
+vq3g_tb
+R0
+R1
+!i10b 1
+!s100 MHJ6PIZVXKoCZB^m1PTZV0
+R2
+IDZU4O6>^@gMVVZGi9=6d30
+R3
+S1
+R4
+w1702995968
+R16
+R17
+!i122 351
+R18
+R5
+r1
+!s85 0
+31
+R6
+R19
+R20
+!i113 1
+R7
+R8
+vq3h_tb
+R0
+R1
+!i10b 1
+!s100 KcKePVkS8lOi2F5:f;3@Z3
+R2
+I8h3Vb6JPk;S1<[m=^DzB;0
+R3
+S1
+R4
+w1702995953
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/h/h.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/h/h.sv
+!i122 352
+R15
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/h/h.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/h/h.sv|
+!i113 1
+R7
+R8
+vs_r_latch
+R0
+Z21 !s110 1702996002
+!i10b 1
+!s100 O_mT99iNRbeV0ROiBb[2X0
+R2
+IdU6JN:FZi?i7lh3gQXc792
+R3
+S1
+R4
+w1702930116
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/b.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/b.sv
+!i122 343
+L0 2 4
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/b.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/b.sv|
+!i113 1
+R7
+R8
+vs_r_latch_tb
+R0
+R21
+!i10b 1
+!s100 l4LL<LI3goPPLBKldHk9=1
+R2
+I4[z3gD`0Z_<Qmh>?UnmnT2
+R3
+S1
+R4
+w1702921093
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/btb.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/btb.sv
+!i122 344
+R15
+R5
+r1
+!s85 0
+31
+R14
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/btb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/btb.sv|
+!i113 1
+R7
+R8

@@ -1,0 +1,126 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab
+vdown_counter
+Z0 !s110 1704193858
+!i10b 1
+!s100 Uj]WPM8]TCb0MhPj16bT_3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4T4BfT0hE`T3Zjn9Kk[Jz2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab
+Z4 w1704193853
+Z5 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_pre.v
+Z6 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_pre.v
+!i122 82
+L0 17 20
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704193858.000000
+Z9 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_pre.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_pre.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vhard_block
+R0
+!i10b 1
+!s100 ca[i6AZENEo3L6:2N5jh02
+R1
+IeVHoVKPXVfA5c;W>Qn70G0
+R2
+R3
+Z13 w1704193687
+Z14 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo
+Z15 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo
+!i122 84
+L0 861 34
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo|
+Z16 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo|
+!i113 1
+R11
+R12
+vtransmitter_post
+R0
+!i10b 1
+!s100 WFlMOV;lA^jLLDo1D]o=d1
+R1
+IaKi>=nOCM5fkfC<g5>@f42
+R2
+R3
+R13
+R14
+R15
+!i122 84
+L0 32 828
+R7
+r1
+!s85 0
+31
+R8
+Z17 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo|
+R16
+!i113 1
+R11
+R12
+vtransmitter_pre
+R0
+!i10b 1
+!s100 b7H[B=ejfhOZH@WT;^7IF3
+R1
+IGaizhcnfNBdTZ3X?]Ra6e2
+R2
+R3
+R4
+R5
+R6
+!i122 82
+L0 3 13
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vtransmitter_tb
+R0
+!i10b 1
+!s100 018?35ThO2`4U<:[T1KlY1
+R1
+I@4lWMHnHYWgWPz`KaHK>A3
+R2
+R3
+w1704193080
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+!i122 83
+L0 3 17
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v|
+!i113 1
+R11
+R12

@@ -1,0 +1,128 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/q1lab
+vdetector_0111110
+DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+!s110 1703773099
+!i10b 1
+!s100 4zIO989>5K]khc16P<>TO1
+Z0 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IUogY4P4kK`9BO::fD3o^:3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z2 dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/lab
+w1703772819
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/circuit.sv
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/circuit.sv
+!i122 34
+L0 1 25
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1703773099.000000
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/circuit.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/circuit.sv|
+!i113 1
+o-work work -sv
+Z4 tCvgOpt 0
+vdetector_post
+Z5 !s110 1704135972
+!i10b 1
+!s100 H@R;9:ek@BB@daZ;;9VVL3
+R0
+I2:Q5z[L5b2on@OX5cPHFI3
+R1
+R2
+Z6 w1704135373
+Z7 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/2/simulation/modelsim/detector_post.vo
+Z8 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/2/simulation/modelsim/detector_post.vo
+!i122 71
+L0 32 562
+R3
+r1
+!s85 0
+31
+Z9 !s108 1704135972.000000
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/2/simulation/modelsim/detector_post.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/2/simulation/modelsim/detector_post.vo|
+!i113 1
+Z11 o-work work
+R4
+vdetector_pre
+R5
+!i10b 1
+!s100 <A_NiOl`]ef]alZL;Ya:;3
+R0
+IG[M;m:A3gP<`5O445[]oH1
+R1
+R2
+w1704132815
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/detector-pre.v
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/detector-pre.v
+!i122 69
+L0 3 27
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/detector-pre.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/0/detector-pre.v|
+!i113 1
+R11
+R4
+vhard_block
+R5
+!i10b 1
+!s100 iQIlg0zg2_L0EHF^4?o9]1
+R0
+Ih:Kn71:P<9dGCJWNDYLEk2
+R1
+R2
+R6
+R7
+R8
+!i122 71
+L0 595 34
+R3
+r1
+!s85 0
+31
+R9
+Z12 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/2/simulation/modelsim/detector_post.vo|
+R10
+!i113 1
+R11
+R4
+vseq_tb
+R5
+!i10b 1
+!s100 jVGGfM;GMOCN7`dAb0O=l0
+R0
+I7^izSa08YdNmAH20zigUE2
+R1
+R2
+w1704135629
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/1/sequence_tb.v
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/1/sequence_tb.v
+!i122 70
+L0 3 36
+R3
+r1
+!s85 0
+31
+R9
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/1/sequence_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/a/1/sequence_tb.v|
+!i113 1
+R11
+R4

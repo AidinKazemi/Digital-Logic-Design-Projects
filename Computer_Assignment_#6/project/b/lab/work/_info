@@ -1,0 +1,310 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/ca5m/lab
+vadd_unit
+Z0 !s110 1704836772
+!i10b 1
+!s100 IH@9WJKY=1dVbZF;KUU3<1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ig`chWMX>[SFK`]0WV[b4Z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/lab
+Z4 w1704836765
+Z5 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/3.v
+Z6 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/3.v
+!i122 336
+L0 55 3
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704836771.000000
+Z9 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/3.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/3.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcosine_asserter
+R0
+!i10b 1
+!s100 3_Zika>06J5d;m36AV`6k1
+R1
+I;b=OVX?R29g_]Al=5>IlI1
+R2
+R3
+w1704747095
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/5.v
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/5.v
+!i122 338
+L0 1 10
+R7
+r1
+!s85 0
+31
+Z13 !s108 1704836772.000000
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/5.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/5.v|
+!i113 1
+R11
+R12
+vcosine_dp
+R0
+!i10b 1
+!s100 ;O=PGB<hKog61;1NIoLLc0
+R1
+IMfJcNbfUA=LicM]M4:h6_1
+R2
+R3
+R4
+R5
+R6
+!i122 336
+L0 1 40
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcosine_hoffman_sm
+R0
+!i10b 1
+!s100 :TmXiD6mNR_gBWT;0JADO2
+R1
+In=Q:cl4B`S87QDTRMTAAN0
+R2
+R3
+w1704748134
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/4.v
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/4.v
+!i122 337
+L0 1 80
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/4.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/4.v|
+!i113 1
+R11
+R12
+vcosine_tb
+R0
+!i10b 1
+!s100 CSZEgD1Q8cU7;hKNaaJSk2
+R1
+I;CAj2:d5>T>lY`UIQPAlz1
+R2
+R3
+w1704833967
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/cosine_tb.v
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/cosine_tb.v
+!i122 339
+L0 3 22
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/cosine_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/a/cosine_tb.v|
+!i113 1
+R11
+R12
+vcosines
+R0
+!i10b 1
+!s100 Z_?o<25on7?JX9nWL@iOC2
+R1
+IdO:C?=Fjg?38[gI[`G0:n2
+R2
+R3
+Z14 w1704825881
+Z15 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/quzrt/simulation/modelsim/cosines.vo
+Z16 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/quzrt/simulation/modelsim/cosines.vo
+!i122 340
+L0 32 11944
+R7
+r1
+!s85 0
+31
+R13
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/quzrt/simulation/modelsim/cosines.vo|
+Z17 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/quzrt/simulation/modelsim/cosines.vo|
+!i113 1
+R11
+R12
+vcounter
+R0
+!i10b 1
+!s100 jeXS@m>EEl;iWXVTG;o7i0
+R1
+IV]ke[1jMmC[ccz_XWHU0J1
+R2
+R3
+R4
+R5
+R6
+!i122 336
+L0 103 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vddff
+R0
+!i10b 1
+!s100 ^eR<H3DKSB8n9zAU:`C3Z2
+R1
+IQEK<QP?dN;C3j4k^@c;d01
+R2
+R3
+R4
+R5
+R6
+!i122 336
+L0 91 11
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vdff
+!s110 1704717782
+!i10b 1
+!s100 QImF`URC=N1N?ddecFm0c1
+R1
+I1e`5Pa21SWol`j[><i58U3
+R2
+R3
+w1704717775
+R5
+R6
+!i122 78
+L0 89 8
+R7
+r1
+!s85 0
+31
+!s108 1704717781.000000
+R9
+R10
+!i113 1
+R11
+R12
+vhard_block
+R0
+!i10b 1
+!s100 1P[@oCdSecQd1KLOkz3[d0
+R1
+InSPOLk`iOQ@zK<IMIZlZ_3
+R2
+R3
+R14
+R15
+R16
+!i122 340
+L0 11977 34
+R7
+r1
+!s85 0
+31
+R13
+Z18 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca6/b/quzrt/simulation/modelsim/cosines.vo|
+R17
+!i113 1
+R11
+R12
+vhex_rom
+R0
+!i10b 1
+!s100 1WR>WAa2DOKj`]4WI[WW93
+R1
+IlB160JSLfe_>Qn3M^lUiH3
+R2
+R3
+R4
+R5
+R6
+!i122 336
+L0 69 21
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vmult_unit
+R0
+!i10b 1
+!s100 TNIBV01ZaQ:eIX89`<<3:2
+R1
+IkCC2FZiAmKA_:miUAHO_03
+R2
+R3
+R4
+R5
+R6
+!i122 336
+L0 59 9
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vregister
+R0
+!i10b 1
+!s100 ]<]P?@be9AK^0lRZKkc2R1
+R1
+IRW=COSBMkEPFk[j[BU2_e1
+R2
+R3
+R4
+R5
+R6
+!i122 336
+L0 42 12
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12

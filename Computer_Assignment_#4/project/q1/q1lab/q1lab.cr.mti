@@ -1,0 +1,64 @@
+C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/e/e.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/e/e.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module pr_edge_dflipflop
+
+Top level modules:
+	pr_edge_dflipflop
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/f/q3ftb.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/f/q3ftb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module q3f_tb
+
+Top level modules:
+	q3f_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/b.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/b.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module s_r_latch
+
+Top level modules:
+	s_r_latch
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/c/q2ctb.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/c/q2ctb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module q2c_tb
+
+Top level modules:
+	q2c_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q3/g/q3gtb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module q3g_tb
+
+Top level modules:
+	q3g_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/d/q2dtb.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/d/q2dtb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module q2d_tb
+
+Top level modules:
+	q2d_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/btb.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q1/b/btb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module s_r_latch_tb
+
+Top level modules:
+	s_r_latch_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/b/q2btb.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/b/q2btb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module q2b_tb
+
+Top level modules:
+	q2b_tb
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/a/a.sv {1 {vlog -work work -sv -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca4/projrct/q2/a/a.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module edge_dflipflop
+
+Top level modules:
+	edge_dflipflop
+
+} {} {}}

@@ -1,0 +1,12 @@
+
+State Machine - |cosines|cosine_hoffman_sm:sm|current_state
+Name current_state.compare_y current_state.mult_rom2 current_state.mult_rom1 current_state.mult_x2 current_state.mult_x1 current_state.init current_state.wait_ current_state.idle current_state.add_ans 
+current_state.idle 0 0 0 0 0 0 0 0 0 
+current_state.wait_ 0 0 0 0 0 0 1 1 0 
+current_state.init 0 0 0 0 0 1 0 1 0 
+current_state.mult_x1 0 0 0 0 1 0 0 1 0 
+current_state.mult_x2 0 0 0 1 0 0 0 1 0 
+current_state.mult_rom1 0 0 1 0 0 0 0 1 0 
+current_state.mult_rom2 0 1 0 0 0 0 0 1 0 
+current_state.compare_y 1 0 0 0 0 0 0 1 0 
+current_state.add_ans 0 0 0 0 0 0 0 1 1 

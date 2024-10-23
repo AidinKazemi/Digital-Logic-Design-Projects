@@ -1,0 +1,3865 @@
+# Compile of transmitter_pre.v was successful with warnings.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp /bcpp=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo work.transmitter_tb
+# vsim -gui -L altera_ver -L cycloneiv_ver -sdftyp "/bcpp=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo" work.transmitter_tb 
+# Start time: 13:37:22 on Jan 02,2024
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo
+# ** Error (suppressible): (vsim-SDF-3250) bit_counter_post_v.sdo(0): Failed to find INSTANCE '/bcpp'.
+# Loading instances from transmitter_post_v.sdo
+# ** Error (suppressible): (vsim-SDF-3894) : Errors occured in reading and resolving instances from compiled SDF file(s).
+# Loading altera_ver.PRIM_GDFF_LOW
+# ** Error (suppressible): (vsim-SDF-3250) C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/b/lab/bit_counter_post_v.sdo(0): Failed to find INSTANCE '/bcpp'.
+# Loading timing data from transmitter_post_v.sdo
+# Error loading design
+# End time: 13:37:23 on Jan 02,2024, Elapsed time: 0:00:01
+# Errors: 3, Warnings: 6
+vsim -gui work.transmitter_tb
+# vsim -gui work.transmitter_tb 
+# Start time: 13:37:56 on Jan 02,2024
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 152
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 165
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_obuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 178
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 191
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 201
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_clkctrl' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 211
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 224
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 242
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 252
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 262
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 280
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 297
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 314
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_clkctrl' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 324
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 337
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 356
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 374
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 384
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 402
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 419
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 438
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 448
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 458
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 476
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 494
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 512
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 529
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 548
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 566
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 583
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 602
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 612
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 622
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 640
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 658
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 676
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 693
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 712
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 730
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 747
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 766
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 776
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 794
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 812
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 829
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_io_ibuf' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 848
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 858
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 875
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 892
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'dffeas' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 909
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 928
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 945
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 962
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# ** Error: (vsim-3033) Instantiation of 'cycloneiv_lcell_comb' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb/tr_post File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/1/simulation/modelsim/transmitter_post.vo Line: 979
+#         Searched libraries:
+#             C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/work
+# Error loading design
+# End time: 13:37:57 on Jan 02,2024, Elapsed time: 0:00:01
+# Errors: 54, Warnings: 1
+# Compile of transmitter_pre.v was successful with warnings.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.transmitter_tb
+# vsim -gui work.transmitter_tb 
+# Start time: 13:38:33 on Jan 02,2024
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+add wave -position insertpoint  \
+sim:/transmitter_tb/wake_em_up_pre \
+sim:/transmitter_tb/start \
+sim:/transmitter_tb/serial_out_pre \
+sim:/transmitter_tb/serial_in \
+sim:/transmitter_tb/rst \
+sim:/transmitter_tb/ready_pre \
+sim:/transmitter_tb/parinp \
+sim:/transmitter_tb/clk
+run -all
+# Current load value 00000011
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1240 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000011
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000011
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1240 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value z 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1240 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000111
+# Current contain value 00000111
+# Current wake value 0
+# Current co value 0
+# Current load_en value 1 
+# 
+# Current load value 00000111
+# Current contain value 00000111
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1240 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1165 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000111
+# Current contain value 00000111
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000111
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 1 
+# 
+# Current load value 00000111
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value xxxxxxxx
+# Current wake value x
+# Current co value x
+# Current load_en value 1 
+# 
+# Current load value 00000111
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000010
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000001
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000111
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000010
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000001
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000111
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000001
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.transmitter_tb -L cycloneiv_ver -L altera_ver -sdftyp /tr_post=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# End time: 14:14:29 on Jan 02,2024, Elapsed time: 0:35:56
+# Errors: 0, Warnings: 4
+# vsim -gui work.transmitter_tb -L cycloneiv_ver -L altera_ver -sdftyp "/tr_post=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo" 
+# Start time: 14:14:29 on Jan 02,2024
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+add wave -position insertpoint  \
+sim:/transmitter_tb/wake_em_up_pre \
+sim:/transmitter_tb/wake_em_up_post \
+sim:/transmitter_tb/start \
+sim:/transmitter_tb/serial_out_pre \
+sim:/transmitter_tb/serial_out_post \
+sim:/transmitter_tb/serial_in \
+sim:/transmitter_tb/rst \
+sim:/transmitter_tb/ready_pre \
+sim:/transmitter_tb/ready_post \
+sim:/transmitter_tb/parinp \
+sim:/transmitter_tb/clk
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1190 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1205 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1207 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1210 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1210 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# SDF 2020.1 Compiler 2020.02 Feb 28 2020
+# 
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1210 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+quit -sim
+# End time: 14:40:03 on Jan 02,2024, Elapsed time: 0:25:34
+# Errors: 0, Warnings: 1
+vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp /tr_post=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo work.transmitter_tb
+# vsim -gui -L cycloneiv_ver -L altera_ver -sdftyp "/tr_post=C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo" work.transmitter_tb 
+# Start time: 14:40:08 on Jan 02,2024
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# Loading cycloneiv_ver.cycloneiv_io_obuf
+# Loading cycloneiv_ver.cycloneiv_io_ibuf
+# Loading cycloneiv_ver.cycloneiv_clkctrl
+# Loading cycloneiv_ver.cycloneiv_mux41
+# Loading cycloneiv_ver.cycloneiv_ena_reg
+# Loading cycloneiv_ver.cycloneiv_lcell_comb
+# Loading altera_ver.dffeas
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/transmitter_tb/wake_em_up_pre \
+sim:/transmitter_tb/wake_em_up_post \
+sim:/transmitter_tb/start \
+sim:/transmitter_tb/serial_out_pre \
+sim:/transmitter_tb/serial_out_post \
+sim:/transmitter_tb/serial_in \
+sim:/transmitter_tb/rst \
+sim:/transmitter_tb/ready_pre \
+sim:/transmitter_tb/ready_post \
+sim:/transmitter_tb/parinp \
+sim:/transmitter_tb/clk
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000110
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1210 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+# Compile of transmitter_pre.v was successful.
+# Compile of transmitter_tb.v was successful.
+# Compile of transmitter_post.vo was successful.
+# 3 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.transmitter_tb
+# Loading work.transmitter_pre
+# Loading work.down_counter
+# Loading work.transmitter_post
+# Loading work.hard_block
+# Loading instances from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading instances from transmitter_post_v.sdo
+# Loading timing data from C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab/transmitter_post_v.sdo
+# Loading timing data from transmitter_post_v.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /transmitter_tb File: C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v
+run -all
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 1 
+# 
+# Current load value 00000110
+# Current contain value 00000101
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000100
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000011
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000010
+# Current wake value 0
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000001
+# Current wake value 1
+# Current co value 0
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# Current load value 00000110
+# Current contain value 00000000
+# Current wake value 0
+# Current co value 1
+# Current load_en value 0 
+# 
+# ** Note: $stop    : C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v(17)
+#    Time: 1210 ns  Iteration: 0  Instance: /transmitter_tb
+# Break in Module transmitter_tb at C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/0/transmitter_tb.v line 17
+quit -sim
+# End time: 15:21:21 on Jan 02,2024, Elapsed time: 0:41:13
+# Errors: 0, Warnings: 1

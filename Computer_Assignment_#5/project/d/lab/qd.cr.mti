@@ -1,0 +1,16 @@
+C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/1/simulation/modelsim/circuit_d.vo {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/1/simulation/modelsim/circuit_d.vo
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module circuit_d
+-- Compiling module hard_block
+
+Top level modules:
+	circuit_d
+
+} {} {}} C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/2/qd_tb.v {1 {vlog -work work -stats=none C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/2/qd_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module circuit_d_tb
+
+Top level modules:
+	circuit_d_tb
+
+} {} {}}

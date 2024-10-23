@@ -1,0 +1,63 @@
+|transmitter_post
+clk => clk.IN1
+rst => rst.IN1
+serial_in => serial_out.DATAIN
+start => start.IN1
+parint[0] => parint[0].IN1
+parint[1] => parint[1].IN1
+parint[2] => parint[2].IN1
+parint[3] => parint[3].IN1
+parint[4] => parint[4].IN1
+parint[5] => parint[5].IN1
+parint[6] => parint[6].IN1
+parint[7] => parint[7].IN1
+serial_out <= serial_in.DB_MAX_OUTPUT_PORT_TYPE
+wake_em_up <= down_counter:dcntr.port6
+serout_ready <= serout_en_reg.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|transmitter_post|down_counter:dcntr
+clk => contain[0].CLK
+clk => contain[1].CLK
+clk => contain[2].CLK
+clk => contain[3].CLK
+clk => contain[4].CLK
+clk => contain[5].CLK
+clk => contain[6].CLK
+clk => contain[7].CLK
+rst => contain[0].ACLR
+rst => contain[1].ACLR
+rst => contain[2].ACLR
+rst => contain[3].ACLR
+rst => contain[4].ACLR
+rst => contain[5].ACLR
+rst => contain[6].ACLR
+rst => contain[7].ACLR
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+count_en => ns.OUTPUTSELECT
+load_en => ns[7].OUTPUTSELECT
+load_en => ns[6].OUTPUTSELECT
+load_en => ns[5].OUTPUTSELECT
+load_en => ns[4].OUTPUTSELECT
+load_en => ns[3].OUTPUTSELECT
+load_en => ns[2].OUTPUTSELECT
+load_en => ns[1].OUTPUTSELECT
+load_en => ns[0].OUTPUTSELECT
+load_inp[0] => Add0.IN16
+load_inp[1] => Add0.IN15
+load_inp[2] => Add0.IN14
+load_inp[3] => Add0.IN13
+load_inp[4] => Add0.IN12
+load_inp[5] => Add0.IN11
+load_inp[6] => Add0.IN10
+load_inp[7] => Add0.IN9
+co <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+wake_em_up <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+

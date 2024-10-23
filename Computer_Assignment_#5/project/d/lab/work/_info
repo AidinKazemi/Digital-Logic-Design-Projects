@@ -1,0 +1,80 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/c/lab
+vcircuit_d
+Z0 !s110 1704202488
+!i10b 1
+!s100 <cNg^HQ3mo1Yj]nbi8iFG3
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I3l47R5L7Wb=ECSHkIX=Ik3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/lab
+Z4 w1704202363
+Z5 8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/1/simulation/modelsim/circuit_d.vo
+Z6 FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/1/simulation/modelsim/circuit_d.vo
+!i122 47
+L0 32 1788
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1704202488.000000
+Z9 !s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/1/simulation/modelsim/circuit_d.vo|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/1/simulation/modelsim/circuit_d.vo|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vcircuit_d_tb
+!s110 1704202489
+!i10b 1
+!s100 L9G4^2g_R06UXbia5PBcV3
+R1
+IS[nO^hiTd1n[86R0MIHFW1
+R2
+R3
+w1704201955
+8C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/2/qd_tb.v
+FC:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/2/qd_tb.v
+!i122 48
+L0 3 48
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/2/qd_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/aidin/AIDIN/peregrine/term-3/Digital-systems/Cas/ca5/d/2/qd_tb.v|
+!i113 1
+R11
+R12
+vhard_block
+R0
+!i10b 1
+!s100 J?niT;BlMAR:TkBHiZENj1
+R1
+IT3^Q6`jii:_OQIQ<7SdI=0
+R2
+R3
+R4
+R5
+R6
+!i122 47
+L0 1821 34
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
